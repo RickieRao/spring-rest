@@ -1,2 +1,7 @@
 spring:
     greeting: Hello Spring REST
+    thymeleaf:
+#      mode: html
+      prefix: classpath:/templates/thymeleaf/
+      suffix: .html
+      cache: false
